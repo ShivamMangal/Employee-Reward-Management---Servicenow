@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1939412_employ_0.user" name="x_1939412_employ_0.user">46171a62471f071053fb7f52d16d4335</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>Shivam</sys_created_by>
+        <sys_created_on>2026-09-16 08:01:19</sys_created_on>
+        <sys_id>ca171a62471f071053fb7f52d16d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>46171a62471f071053fb7f52d16d4335</sys_name>
+        <sys_package display_value="Employee Reward Management" source="x_1939412_employ_0">7d17d662471f071053fb7f52d16d4380</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reward Management">7d17d662471f071053fb7f52d16d4380</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ca171a62471f071053fb7f52d16d4337</sys_update_name>
+        <sys_updated_by>Shivam</sys_updated_by>
+        <sys_updated_on>2026-09-16 08:01:19</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
