@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4a4a945f37eb4eea9b8e292789ae69c4" sys_domain="global" table="x_1939412_employ_0_reward_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed529f12c2304047a3caec5ee24d83ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1939412_employ_0_reward_request" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">4a4a945f37eb4eea9b8e292789ae69c4</sys_ui_form>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">71e341ea5c2447d6baa34d44aa5d925b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e66e4ac008a41939a4e7772813a9258</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1939412_employ_0_reward_request" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">4a4a945f37eb4eea9b8e292789ae69c4</sys_ui_form>
+            <sys_ui_section caption="Reward Details" display_value="Reward Details" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">3774c6efd99b4799bc2e096f67e72a8b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3eae9a55f864cec92ec4f58ec9be723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1939412_employ_0_reward_request" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">4a4a945f37eb4eea9b8e292789ae69c4</sys_ui_form>
+            <sys_ui_section caption="Approval" display_value="Approval" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">abf2b1998d6e41d0ac8f34981241a97c</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f30ed1547278b5053fb7f52d16d43ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1939412_employ_0_reward_request" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">4a4a945f37eb4eea9b8e292789ae69c4</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">9f2cb6264713471053fb7f52d16d430b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1939412_employ_0_reward_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a4a945f37eb4eea9b8e292789ae69c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1939412_employ_0_reward_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Reward Management" source="x_1939412_employ_0">7d17d662471f071053fb7f52d16d4380</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Reward Management">7d17d662471f071053fb7f52d16d4380</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4a4a945f37eb4eea9b8e292789ae69c4</sys_update_name>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

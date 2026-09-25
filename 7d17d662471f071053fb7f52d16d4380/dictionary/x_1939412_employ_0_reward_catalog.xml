@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="80027ee647df071053fb7f52d16d432e" label="Reward Catalog" max_length="40" name="x_1939412_employ_0_reward_catalog" type="collection">
+        <element attributes="edge_encryption_enabled=true,timeFromCreateToActivate=21000" label="Requires HR Approval" mandatory="true" max_length="40" name="requires_hr_approval" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Max Value" mandatory="true" max_length="20" name="max_value" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,timeFromCreateToActivate=21000" default="true" label="Active" mandatory="true" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,timeFromCreateToActivate=21000" choice="1" display="true" label="Reward Type" mandatory="true" max_length="40" name="reward_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Team Recognition Award" sequence="5" value="team_recognition_award"/>
+                <element inactive_on_update="false" label="Extra Leave Credit" sequence="4" value="extra_leave_credit"/>
+                <element inactive_on_update="false" label="Spot Bonus - High Value" sequence="2" value="spot_bonus_high"/>
+                <element inactive_on_update="false" label="Spot Bonus" sequence="1" value="spot_bonus"/>
+                <element inactive_on_update="false" label="Voucher - Gift Card" sequence="3" value="voucher_gift_card"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" default="0" label="Min Value" max_length="20" name="min_value" type="currency"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,timeFromCreateToActivate=21000" label="Requires Finance Approval" mandatory="true" max_length="40" name="requires_finance_approval" type="boolean"/>
+    </element>
+</database>

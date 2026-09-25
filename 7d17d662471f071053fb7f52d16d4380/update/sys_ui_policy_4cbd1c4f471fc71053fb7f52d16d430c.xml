@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1939412_employ_0_reward_catalog">active=false^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Handle Active</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>Shivam</sys_created_by>
+        <sys_created_on>2026-09-17 12:28:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4cbd1c4f471fc71053fb7f52d16d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Handle Active</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Reward Management" source="x_1939412_employ_0">7d17d662471f071053fb7f52d16d4380</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reward Management">7d17d662471f071053fb7f52d16d4380</sys_scope>
+        <sys_update_name>sys_ui_policy_4cbd1c4f471fc71053fb7f52d16d430c</sys_update_name>
+        <sys_updated_by>Shivam</sys_updated_by>
+        <sys_updated_on>2026-09-17 12:28:45</sys_updated_on>
+        <table>x_1939412_employ_0_reward_catalog</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Approval" section_id="abf2b1998d6e41d0ac8f34981241a97c" sys_domain="global" table="x_1939412_employ_0_reward_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:55</sys_created_on>
+            <sys_id>e5cb7c714f9848fa9319d0e440f71241</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approval" display_value="Approval" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">abf2b1998d6e41d0ac8f34981241a97c</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:55</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_approver</element>
+            <position>1</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:55</sys_created_on>
+            <sys_id>11e3bd4553da4bbab7529d4146b70e48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approval" display_value="Approval" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">abf2b1998d6e41d0ac8f34981241a97c</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approver_by</element>
+            <position>2</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:55</sys_created_on>
+            <sys_id>8b30f97b9d7c4ea884ea9af4a1c80c95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approval" display_value="Approval" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">abf2b1998d6e41d0ac8f34981241a97c</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ritm</element>
+            <position>3</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:55</sys_created_on>
+            <sys_id>5218221305454f67bd5ebc0fc1eb7b15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approval" display_value="Approval" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">abf2b1998d6e41d0ac8f34981241a97c</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:55</sys_created_on>
+            <sys_id>0e9c54203dfe4d75a180b0e6c0bba819</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approval" display_value="Approval" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">abf2b1998d6e41d0ac8f34981241a97c</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_approved</element>
+            <position>5</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:55</sys_created_on>
+            <sys_id>e021b5c6cb0c4d6bb98ed13085d4eb5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approval" display_value="Approval" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">abf2b1998d6e41d0ac8f34981241a97c</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resubmission_count</element>
+            <position>6</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:55</sys_created_on>
+            <sys_id>df84744957064c12948cb7256af77748</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approval" display_value="Approval" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">abf2b1998d6e41d0ac8f34981241a97c</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:55</sys_created_on>
+            <sys_id>a9d66fc522594c458b76e940175fc9da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approval" display_value="Approval" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">abf2b1998d6e41d0ac8f34981241a97c</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:55</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rejection_comments</element>
+            <position>8</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:55</sys_created_on>
+            <sys_id>d0965f4a77e74f7c8401575b6c97913c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approval" display_value="Approval" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">abf2b1998d6e41d0ac8f34981241a97c</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Approval</caption>
+            <header>false</header>
+            <name>x_1939412_employ_0_reward_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abf2b1998d6e41d0ac8f34981241a97c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1939412_employ_0_reward_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Reward Management" source="x_1939412_employ_0">7d17d662471f071053fb7f52d16d4380</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Reward Management">7d17d662471f071053fb7f52d16d4380</sys_scope>
+            <sys_update_name>sys_ui_section_abf2b1998d6e41d0ac8f34981241a97c</sys_update_name>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

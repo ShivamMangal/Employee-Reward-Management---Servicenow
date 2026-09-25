@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9ef73a264713471053fb7f52d16d434a" label="Reward Request" max_length="40" name="x_1939412_employ_0_reward_request" type="collection">
+        <element attributes="edge_encryption_enabled=true,timeFromCreateToActivate=21000" default="javascript: new GlideDateTime(). getYearLocalTime();" label="Year" mandatory="true" max_length="40" name="year" type="integer"/>
+        <element label="Date Approved" max_length="40" name="date_approved" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,timeFromCreateToActivate=21000" default="0" label="Leave Days" max_length="40" name="leave_days" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,timeFromCreateToActivate=21000" default="0" label="Resubmission Count" max_length="40" name="resubmission_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Current Approver" max_length="32" name="current_approver" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Department" mandatory="true" max_length="32" name="department" read_only="true" read_only_option="display_read_only" reference="cmn_department" type="reference"/>
+        <element label="Justification" max_length="4000" name="justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Reward Type" mandatory="true" max_length="32" name="reward_type" reference="x_1939412_employ_0_reward_catalog" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,timeFromCreateToActivate=21000" choice="1" label="Quarter" mandatory="true" max_length="40" name="quarter" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Q2" sequence="2" value="q2"/>
+                <element inactive_on_update="false" label="Q4" sequence="4" value="q4"/>
+                <element inactive_on_update="false" label="Q1" sequence="1" value="q1"/>
+                <element inactive_on_update="false" label="Q3" sequence="3" value="q3"/>
+            </choice>
+        </element>
+        <element label="Approved By" name="approved_by" reference="sys_user" type="reference"/>
+        <element label="Rejection Comments" max_length="4000" name="rejection_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="RITM" max_length="32" name="ritm" reference="sc_req_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Employee" mandatory="true" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Approver By" max_length="32" name="approver_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,timeFromCreateToActivate=21000" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending Approval" sequence="3" value="pending_approval"/>
+                <element inactive_on_update="false" label="Rejected - Editable" sequence="6" value="rejected_editable"/>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="draft"/>
+                <element inactive_on_update="false" label="Closed - Fulfilled" sequence="7" value="closed_fulfilled"/>
+                <element inactive_on_update="false" label="Approved" sequence="4" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="5" value="rejected"/>
+                <element inactive_on_update="false" label="Pending Validation" sequence="2" value="pending_validation"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" default="0.0" label="Amount" max_length="20" name="amount" type="currency"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="approved_by"/>
+        </index>
+        <index name="index2">
+            <element name="approver_by"/>
+        </index>
+        <index name="index3">
+            <element name="current_approver"/>
+        </index>
+        <index name="index4">
+            <element name="department"/>
+        </index>
+        <index name="index5">
+            <element name="employee"/>
+        </index>
+        <index name="index6">
+            <element name="requested_by"/>
+        </index>
+        <index name="index7">
+            <element name="reward_type"/>
+        </index>
+        <index name="index8">
+            <element name="ritm"/>
+        </index>
+    </element>
+</database>

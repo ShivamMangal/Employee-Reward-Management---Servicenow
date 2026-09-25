@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e5e04ffe4713c71053fb7f52d16d43c7" label="Employee Reward History" max_length="40" name="x_1939412_employ_0_employee_reward_history" type="collection">
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Amount" mandatory="true" max_length="20" name="amount" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Employee" mandatory="true" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Reward Type" mandatory="true" max_length="32" name="reward_type" reference="x_1939412_employ_0_reward_catalog" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Reward Request" mandatory="true" max_length="32" name="reward_request" reference="x_1939412_employ_0_reward_request" type="reference"/>
+        <element label="Date Given" mandatory="true" max_length="40" name="date_given" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,timeFromCreateToActivate=21000" choice="1" label="Quarter" mandatory="true" max_length="40" name="quarter" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Q1" sequence="1" value="q1"/>
+                <element inactive_on_update="false" label="Q4" sequence="4" value="q4"/>
+                <element inactive_on_update="false" label="Q3" sequence="3" value="q3"/>
+                <element inactive_on_update="false" label="Q2" sequence="2" value="q2"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+        <index name="index2">
+            <element name="reward_request"/>
+        </index>
+        <index name="index3">
+            <element name="reward_type"/>
+        </index>
+    </element>
+</database>
