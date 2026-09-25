@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1939412_employ_0_reward_request">reward_type=b0867a624713471053fb7f52d16d4332^ORreward_type=b8867a624713471053fb7f52d16d432e^ORreward_type=7c867a624713471053fb7f52d16d4333^EQ<item endquery="false" field="reward_type" goto="false" newquery="false" operator="=" or="false" value="b0867a624713471053fb7f52d16d4332"/>
+            <item endquery="false" field="reward_type" goto="false" newquery="false" operator="=" or="true" value="b8867a624713471053fb7f52d16d432e"/>
+            <item endquery="false" field="reward_type" goto="false" newquery="false" operator="=" or="true" value="7c867a624713471053fb7f52d16d4333"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Mandatory only when reward type is monetary</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>Shivam</sys_created_by>
+        <sys_created_on>2026-09-17 08:03:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6511aff24757c71053fb7f52d16d430a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Mandatory only when reward type is monetary</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Reward Management" source="x_1939412_employ_0">7d17d662471f071053fb7f52d16d4380</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reward Management">7d17d662471f071053fb7f52d16d4380</sys_scope>
+        <sys_update_name>sys_ui_policy_6511aff24757c71053fb7f52d16d430a</sys_update_name>
+        <sys_updated_by>Shivam</sys_updated_by>
+        <sys_updated_on>2026-09-17 08:04:36</sys_updated_on>
+        <table>x_1939412_employ_0_reward_request</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

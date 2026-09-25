@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="95b4d3224717471053fb7f52d16d4341" label="Department Reward Budget" max_length="40" name="x_1939412_employ_0_department_reward_budget" type="collection">
+        <element attributes="edge_encryption_enabled=true,timeFromCreateToActivate=21000" default="javascript: new GlideDateTime().getYearLocalTime();" label="Year" mandatory="true" max_length="40" name="year" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Consumed Budget" max_length="20" name="consumed_budget" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Allocated Budget" mandatory="true" max_length="20" name="allocated_budget" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,timeFromCreateToActivate=21000" choice="1" label="Quarter" mandatory="true" max_length="40" name="quarter" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Q4" sequence="4" value="q4"/>
+                <element inactive_on_update="false" label="Q1" sequence="1" value="q1"/>
+                <element inactive_on_update="false" label="Q2" sequence="2" value="q2"/>
+                <element inactive_on_update="false" label="Q3" sequence="3" value="q3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Department" mandatory="true" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;    var allocateBudget = current.allocated_budget.getValue();&#10;    var consumeBudget = current.consumed_budget.getValue();&#10;    return allocateBudget - consumeBudget;&#10;&#10;})(current);" formula="(allocated_budget - consumed_budget)" label="Remaining Budget" max_length="20" name="remaining_budget" read_only="true" read_only_option="display_read_only" type="currency" virtual="true"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+    </element>
+</database>

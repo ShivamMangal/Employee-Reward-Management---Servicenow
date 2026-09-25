@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="Reward Quarter">b69ca417479f4b1053fb7f52d16d430f</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>Shivam</sys_created_by>
+        <sys_created_on>2026-09-24 14:58:13</sys_created_on>
+        <sys_id>39f7611f47578b1053fb7f52d16d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Q4</sys_name>
+        <sys_package display_value="Employee Reward Management" source="x_1939412_employ_0">7d17d662471f071053fb7f52d16d4380</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reward Management">7d17d662471f071053fb7f52d16d4380</sys_scope>
+        <sys_update_name>question_choice_39f7611f47578b1053fb7f52d16d43e4</sys_update_name>
+        <sys_updated_by>Shivam</sys_updated_by>
+        <sys_updated_on>2026-09-24 14:58:13</sys_updated_on>
+        <text>Q4</text>
+        <value>q4</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=39f7611f47578b1053fb7f52d16d43e4"/>
+</record_update>
