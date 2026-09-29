@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Spot Bonus Request">30d2f640c7064b4e8a09b493b6c85485</cat_item>
+        <cat_variable>IO:af39e0df475f4b1053fb7f52d16d43d5</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Amount Range</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) return;
+
+    g_form.hideFieldMsg('amount', true);
+
+    if (!newValue) return;
+
+    var rewardTypeSysId = g_form.getValue('reward_type');
+    if (!rewardTypeSysId) {
+        g_form.showFieldMsg('amount', 'Please select a reward type first.', 'info', true);
+        return;
+    }
+
+    // Look up min_value and max_value from the selected reward catalog entry
+    g_form.getReference('reward_type', function (ref) {
+        if (!ref) return;
+
+        var minValue = parseFloat(ref.min_value);
+        var maxValue = parseFloat(ref.max_value);
+        var enteredAmount = parseFloat(newValue);
+
+        if (isNaN(enteredAmount)) {
+            g_form.showFieldMsg('amount', 'Please enter a valid number.', 'error', true);
+            g_form.clearValue('amount');
+            return;
+        }
+
+        if (!isNaN(minValue) && enteredAmount < minValue) {
+            g_form.showFieldMsg('amount', 'Amount must be at least ' + minValue + '.', 'error', true);
+            g_form.clearValue('amount');
+            return;
+        }
+
+        if (!isNaN(maxValue) && enteredAmount > maxValue) {
+            g_form.showFieldMsg('amount', 'Amount cannot exceed ' + maxValue + '.', 'error', true);
+            g_form.clearValue('amount');
+            return;
+        }
+    });
+}
+]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>Shivam</sys_created_by>
+        <sys_created_on>2026-09-25 03:32:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f018379c39e24438bef0d13df6353373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Amount Range</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Reward Management" source="x_1939412_employ_0">7d17d662471f071053fb7f52d16d4380</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reward Management">7d17d662471f071053fb7f52d16d4380</sys_scope>
+        <sys_update_name>catalog_script_client_f018379c39e24438bef0d13df6353373</sys_update_name>
+        <sys_updated_by>Shivam</sys_updated_by>
+        <sys_updated_on>2026-09-25 03:32:09</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>false</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

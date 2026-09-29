@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Request Information" section_id="71e341ea5c2447d6baa34d44aa5d925b" sys_domain="global" table="x_1939412_employ_0_reward_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_id>fb6e06db8dfe4960ab4be9e59305998a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">71e341ea5c2447d6baa34d44aa5d925b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_id>d9b9ca02196846bfbcedf7478cc606bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">71e341ea5c2447d6baa34d44aa5d925b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee</element>
+            <position>2</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_id>9d39a90548214942b7948ff74d3553c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">71e341ea5c2447d6baa34d44aa5d925b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>3</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_id>d5261b919f2a462c8e22327abdd83c20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">71e341ea5c2447d6baa34d44aa5d925b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reward_type</element>
+            <position>4</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_id>65df7e9fdb6349c3ac32b97d97d44728</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">71e341ea5c2447d6baa34d44aa5d925b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_id>de07d88bb5ae435db75e80338e27714e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">71e341ea5c2447d6baa34d44aa5d925b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>6</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_id>56040e125f4443868ec9f9d18575cdcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">71e341ea5c2447d6baa34d44aa5d925b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_by</element>
+            <position>7</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_id>ecb885630aac4eba95ae92e14da2ef33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">71e341ea5c2447d6baa34d44aa5d925b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quarter</element>
+            <position>8</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_id>a73caa95256f42bba3b4f5ddd04bb663</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">71e341ea5c2447d6baa34d44aa5d925b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year</element>
+            <position>9</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_id>5a3c68ce4e6246efb00b2236a5cf1545</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">71e341ea5c2447d6baa34d44aa5d925b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_id>d0de920539cc4b83ad5c37adc31c743c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1939412_employ_0_reward_request" sys_domain="global" view="Default view">71e341ea5c2447d6baa34d44aa5d925b</sys_ui_section>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Request Information</caption>
+            <header>false</header>
+            <name>x_1939412_employ_0_reward_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Shivam</sys_created_by>
+            <sys_created_on>2026-09-24 17:04:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>71e341ea5c2447d6baa34d44aa5d925b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1939412_employ_0_reward_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Reward Management" source="x_1939412_employ_0">7d17d662471f071053fb7f52d16d4380</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Reward Management">7d17d662471f071053fb7f52d16d4380</sys_scope>
+            <sys_update_name>sys_ui_section_71e341ea5c2447d6baa34d44aa5d925b</sys_update_name>
+            <sys_updated_by>Shivam</sys_updated_by>
+            <sys_updated_on>2026-09-24 17:04:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

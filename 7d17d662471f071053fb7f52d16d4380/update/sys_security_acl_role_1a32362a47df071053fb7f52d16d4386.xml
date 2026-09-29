@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Shivam</sys_created_by>
+        <sys_created_on>2026-09-16 09:59:50</sys_created_on>
+        <sys_id>1a32362a47df071053fb7f52d16d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1939412_employ_0_reward_catalog.x_1939412_employ_0.reward_catalog_user</sys_name>
+        <sys_package display_value="Employee Reward Management" source="x_1939412_employ_0">7d17d662471f071053fb7f52d16d4380</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reward Management">7d17d662471f071053fb7f52d16d4380</sys_scope>
+        <sys_security_acl display_value="x_1939412_employ_0_reward_catalog">9632362a47df071053fb7f52d16d4380</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1a32362a47df071053fb7f52d16d4386</sys_update_name>
+        <sys_updated_by>Shivam</sys_updated_by>
+        <sys_updated_on>2026-09-16 09:59:50</sys_updated_on>
+        <sys_user_role display_value="x_1939412_employ_0.reward_catalog_user" name="x_1939412_employ_0.reward_catalog_user">8a32be2647df071053fb7f52d16d43bd</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
